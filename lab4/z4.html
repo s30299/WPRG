@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z4</title>
+    <style>
+        .container {
+            position: relative;
+            height: 200px;
+        }
+        .orange-text{
+            color: orange;
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            bottom: 125px;
+        }
+        .white-block{
+            height: 50%;
+            width: 100%;
+            z-index: 1;
+            background-color: white;
+            top: 0;
+            left: 0;
+        }
+        .red-block{
+            height: 50%;
+            width: 100%;
+            z-index: 3;
+            background-color: red;
+            left: 0;
+            bottom: 0;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box white-block"></div>
+    <div class="box red-block"></div>
+    <p class="orange-text">Hello world!</p>
+</div>
+</body>
+</html>
