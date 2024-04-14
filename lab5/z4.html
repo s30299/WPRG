@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z4</title>
+    <style>
+        .header{
+            display: flex;
+            font-size: 15pt;
+            background-color: lightgrey;
+            justify-content: space-evenly;
+            padding: 10px;
+            margin: 10px;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+            height: 200px;
+            align-content: flex-start;
+            justify-content: space-evenly;
+
+        }
+        .box1 {
+            font-size: 15pt;
+            text-align: center;
+            line-height: 50px;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+            flex-grow: 1;
+        }
+        .box2 {
+            font-size: 15pt;
+            text-align: left;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+            flex-grow: 1;
+
+        }
+
+        .box3{
+            border: 2px solid;
+            font-size: 15pt;
+            text-align: left;
+            line-height: 50px;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+            flex-grow: 1;
+
+        }
+        .row{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .equal-width{
+            border: 2px solid;
+            text-align: left;
+            margin: 10px;
+            padding: 10px;
+            flex-grow: 1;
+        }
+        .bottom{
+            display: flex;
+            font-size: 15pt;
+            background-color: lightgrey;
+            text-align: center;
+            justify-content: center;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div>Stronga główna</div>
+    <div>O nas</div>
+    <div>Kontakt</div>
+</div>
+<div class="main">
+    <div class="box1"><b>Witaj na naszej skomplikowanej stronie!</b></div>
+    <div class="box2">
+        <div class="row">
+            <div class="equal-width">
+                <b>Funkcja 1</b>
+                <br>Opis funkcji 1 ...
+            </div>
+            <div class="equal-width">
+                <b>Funkcja 2</b>
+                <br>Opis funkcji 2 ...
+            </div>
+        </div>
+        <div class="equal-width">
+            <b>Funkcja 3</b>
+            <br>Opis funkcji 3 ...
+        </div>
+    </div>
+    <div class="box3">
+        <b>Dodaktowe informacje</b>
+        <br>...
+    </div>
+</div>
+<div class="bottom">
+    <div> &copy;	 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone</div>
+</div>
+</body>
+</html>

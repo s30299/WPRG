@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>z3</title>
+    <style>
+        .row{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .equal-width{
+            text-align: center;
+            background-color: lightblue;
+            margin: 10px;
+            padding: 10px;
+            flex-grow: 1;
+        }
+        .row2{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .fixed-percentage{
+            width: 40%;
+            text-align: center;
+            background-color: lightblue;
+            margin: 10px;
+            padding: 10px;
+        }
+        .flexible{
+            width: 60%;
+            text-align: center;
+            background-color: lightblue;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="equal-width">Element 1</div>
+    <div class="equal-width">Element 2</div>
+    <div class="equal-width">Element 3</div>
+</div>
+<div class="row2">
+    <div class="fixed-percentage">Element 4</div>
+    <div class="flexible">Element 5</div>
+</div>
+</body>
+</html>
