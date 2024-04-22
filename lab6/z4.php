@@ -5,6 +5,7 @@
 <body>
 <?php
 $a =12345;
+error_reporting(E_ERROR | E_PARSE);
 function obliczanie($a) {
     while ($a>=10) {
         $temp=0;
