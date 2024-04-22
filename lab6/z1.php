@@ -6,6 +6,7 @@
 <?php
 $a = 10;
 $b = 60;
+error_reporting(E_ERROR | E_PARSE);
 function pierwsze($a, $b) {
     if($a < $b) {
         $c = $a;
