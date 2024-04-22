@@ -7,6 +7,7 @@
 $a = 10;
 $b = 5;
 $c = 4;
+error_reporting(E_ERROR | E_PARSE);
 function ciag($x, $b, $c) {
     echo "ciąg arytmetyczny<br>";
     for($i=0;$i<$c;$i++) {
