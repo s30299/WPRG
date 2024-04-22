@@ -7,6 +7,7 @@
 $a = [2,2];
 $b = [3,3];
 $rows=2;
+error_reporting(E_ERROR | E_PARSE);
 function macierz($a, $b,$rows) {
     $temp=0;
     for($i=0;$i<$rows;$i++){
