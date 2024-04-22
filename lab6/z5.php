@@ -6,6 +6,8 @@
 <?php
 $check=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
 $sentence="The quick brown fox jumps over the lazy dog.";
+error_reporting(E_ERROR | E_PARSE);
+
 function pangram($what ,$a) {
     $str = $what;
     $chars = str_split($str);
